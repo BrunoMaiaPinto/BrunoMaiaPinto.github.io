@@ -1,5 +1,6 @@
 import bg from "@/public/bg.jpg";
 import Image from "next/image";
+
 import {
   SiCss3,
   SiHtml5,
