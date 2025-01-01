@@ -33,6 +33,7 @@ const SocialLinks = function () {
   );
 };
 
+// data
 export default function Footer() {
   return (
     <footer className="sm:grid grid-cols-3 text-center px-10 py-4 items-center border-t border-gray-300 flex flex-col gap-2 z-10 ">
