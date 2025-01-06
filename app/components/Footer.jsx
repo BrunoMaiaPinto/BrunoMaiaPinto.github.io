@@ -3,7 +3,7 @@ import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 
 const socialLinks = [
   {
-    href: "https://github.com/BrunoMaiaPinto",
+    href: "https://brunopinto.netlify.app/",
     icon: SiGithub,
     title: "GitHub",
   },
