@@ -19,7 +19,7 @@ const skills = [
   { icon: SiTailwindcss, title: "Tailwind CSS" },
   { icon: SiJavascript, title: "JavaScript" },
   { icon: SiReact, title: "React" },
-  // { icon: SiPython, title: "Python" },
+  { icon: SiPython, title: "Python" },
   // { icon: SiNodedotjs, title: "Node.js" },
 ];
 
@@ -47,7 +47,7 @@ export default function Home() {
 
       <div className="relative z-10 text-center">
         <h1 className="sm:text-8xl text-6xl mb-10 tracking-tight font-normal">
-          Hello there, I&apos;m Bruno!
+          <span>Hello there</span>, I&apos;m Bruno!
         </h1>
         <p className="sm:text-4xl text-3xl mb-5">
           Junior Front-End Web Developer

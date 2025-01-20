@@ -40,7 +40,7 @@ export default function Footer() {
       <div>
         Copyright &copy; {new Date().getFullYear()} by{" "}
         <Link
-          href="https://brunomaiapinto.github.io/"
+          href="https://brunopinto.netlify.app/"
           className=" hover:text-slate-400 transition-colors"
           target="_blank"
         >
