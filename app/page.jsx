@@ -10,26 +10,38 @@ import {
   SiReact,
   SiSass,
   SiTailwindcss,
+  SiMysql,
 } from "react-icons/si";
 
-const skills = [
+const frontEndSkills = [
   { icon: SiHtml5, title: "HTML" },
   { icon: SiCss3, title: "CSS" },
   { icon: SiSass, title: "SASS" },
   { icon: SiTailwindcss, title: "Tailwind CSS" },
   { icon: SiJavascript, title: "JavaScript" },
   { icon: SiReact, title: "React" },
-  { icon: SiPython, title: "Python" },
+];
+
+const backEndSkills = [
+  { icon: SiMysql, title: "MySQL" },
+  // { icon: SiPython, title: "Python" },
   // { icon: SiNodedotjs, title: "Node.js" },
 ];
 
 const Skills = function () {
   return (
-    <div className="flex justify-center gap-6 mt-4">
-      {skills.map(({ icon: Icon, title }) => (
-        <Icon key={title} className="h-10 w-10" title={title} />
-      ))}
-    </div>
+    <>
+      <div className="flex justify-center gap-6 mt-4">
+        {frontEndSkills.map(({ icon: Icon, title }) => (
+          <Icon key={title} className="h-10 w-10" title={title} />
+        ))}
+      </div>
+      <div className="flex justify-center gap-6 mt-4">
+        {backEndSkills.map(({ icon: Icon, title }) => (
+          <Icon key={title} className="h-14 w-14" title={title} />
+        ))}
+      </div>
+    </>
   );
 };
 
