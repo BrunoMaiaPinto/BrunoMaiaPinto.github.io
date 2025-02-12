@@ -24,7 +24,7 @@ const frontEndSkills = [
 
 const backEndSkills = [
   { icon: SiMysql, title: "MySQL" },
-  // { icon: SiPython, title: "Python" },
+  { icon: SiPython, title: "Python" },
   // { icon: SiNodedotjs, title: "Node.js" },
 ];
 
