@@ -23,8 +23,8 @@ const frontEndSkills = [
 ];
 
 const backEndSkills = [
+  { icon: SiPython, title: "Python" },
   { icon: SiMysql, title: "MySQL" },
-  // { icon: SiPython, title: "Python" },
   // { icon: SiNodedotjs, title: "Node.js" },
 ];
 
