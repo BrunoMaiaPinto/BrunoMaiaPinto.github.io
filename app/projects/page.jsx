@@ -8,6 +8,7 @@ const personalProjects = [
     url: "https://gps-bmmp.netlify.app/",
   },
   { name: "HedgehogPT", url: "https://hedgehogpt.netlify.app/" },
+  { name: "Radar Imóvel", url: "https://brunomaiapinto.pythonanywhere.com/" },
 ];
 
 const courseProjects = [
