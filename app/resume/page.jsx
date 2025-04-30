@@ -11,11 +11,9 @@ const {
   },
   work,
   education,
-  skills: teste,
+  skills,
   languages,
 } = await getResume();
-
-const skills = teste.at(0).keywords;
 
 const Section = function ({ title, children }) {
   return (
@@ -31,14 +29,16 @@ const Section = function ({ title, children }) {
 const Skills = function () {
   return (
     <ul className="flex gap-1 ml-4">
-      {skills.map((skill) => (
-        <li
-          key={skill}
-          className="py-[5px] px-[4px] text-xs text-[#3e6d8e] bg-[#dfeaf1] inline-block rounded"
-        >
-          {skill}
-        </li>
-      ))}
+      {skills.map((skill) =>
+        skill.keywords.map((keyword) => (
+          <li
+            key={keyword}
+            className="py-[5px] px-[4px] text-xs text-[#3e6d8e] bg-[#dfeaf1] inline-block rounded"
+          >
+            {keyword}
+          </li>
+        ))
+      )}
     </ul>
   );
 };
