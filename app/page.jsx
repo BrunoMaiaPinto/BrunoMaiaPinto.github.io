@@ -61,9 +61,7 @@ export default function Home() {
         <h1 className="sm:text-8xl text-6xl mb-10 tracking-tight font-normal">
           <span>Hello there</span>, I&apos;m Bruno!
         </h1>
-        <p className="sm:text-4xl text-3xl mb-5">
-          Junior Front-End Web Developer
-        </p>
+        <p className="sm:text-4xl text-3xl mb-5">Junior Front-End Developer</p>
         <h2 className="text-2xl">Technical Skills:</h2>
         <Skills />
       </div>
