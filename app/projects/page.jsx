@@ -3,6 +3,7 @@ import Button from "../components/Button";
 export const metadata = { title: "Projects" };
 
 const personalProjects = [
+  { name: "SecurePassGen", url: "https://securepassgen-web.netlify.app/" },
   {
     name: "Pesquisa por Código Postal",
     url: "https://gps-bmmp.netlify.app/",
