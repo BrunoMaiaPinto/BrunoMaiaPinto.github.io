@@ -59,7 +59,8 @@ export default function Home() {
 
       <div className="relative z-10 text-center">
         <h1 className="sm:text-8xl text-6xl mb-10 tracking-tight font-normal">
-          <span>Hello there</span>, I&apos;m Bruno!
+          <span onClick={console.log("General Kenobi")}>Hello there</span>,
+          I&apos;m Bruno!
         </h1>
         <p className="sm:text-4xl text-3xl mb-5">Front-End Developer</p>
         <h2 className="text-2xl">Technical Skills:</h2>
