@@ -1,9 +1,9 @@
 import Button from "../components/Button";
 import Image from "next/image";
-import sgpt from "@/public/securepass.png";
-import gps from "@/public/codigop.png";
-import hedge from "@/public/hedgehog.png";
-import radar from "@/public/rad.png";
+import sgpt from "@/public/securepass.webp";
+import gps from "@/public/codigop.webp";
+import hedge from "@/public/hedgehog.webp";
+import radar from "@/public/rad.webp";
 
 export const metadata = { title: "Projects" };
 

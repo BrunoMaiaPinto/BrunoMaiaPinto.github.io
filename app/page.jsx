@@ -1,4 +1,4 @@
-import bg from "@/public/bg.jpg";
+import bg from "@/public/bg.webp";
 import Image from "next/image";
 
 import {
