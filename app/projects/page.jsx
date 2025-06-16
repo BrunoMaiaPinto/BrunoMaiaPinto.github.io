@@ -29,6 +29,7 @@ const personalProjects = [
 const courseProjects = [
   { name: "Ominifood", url: "https://omnifood-bmmp.netlify.app/" },
   { name: "Natours", url: "https://natours-bmmp.netlify.app/" },
+  { name: "Natours - APP", url: "https://natours-3pfv.onrender.com/" },
   { name: "trillo", url: "https://trillo-bmmp.netlify.app/" },
   { name: "nexter", url: "https://nexter-bmmp.netlify.app/" },
   {
