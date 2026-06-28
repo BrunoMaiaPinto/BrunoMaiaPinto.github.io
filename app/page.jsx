@@ -25,7 +25,7 @@ const frontEndSkills = [
 const backEndSkills = [
   { icon: SiPython, title: "Python" },
   { icon: SiMysql, title: "MySQL" },
-  // { icon: SiNodedotjs, title: "Node.js" },
+  { icon: SiNodedotjs, title: "Node.js" },
 ];
 
 const Skills = function () {
@@ -62,7 +62,7 @@ export default function Home() {
           <span onClick={console.log("General Kenobi")}>Hello there</span>,
           I&apos;m Bruno!
         </h1>
-        <p className="sm:text-4xl text-3xl mb-5">Front-End Developer</p>
+        {/* <p className="sm:text-4xl text-3xl mb-5">Front-End Developer</p> */}
         <h2 className="text-2xl">Technical Skills:</h2>
         <Skills />
       </div>
